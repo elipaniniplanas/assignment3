@@ -23,7 +23,7 @@ void printArray(int A[], int lo, int hi ){
 
 int main (int argc, char * const argv[]) {
 
-   int SIZE = 10000; // size of array to sort.
+   int SIZE = 5000; // size of array to sort.
    int TIMES = 10 ; // number of times to run - mean is reported.
 
    srand( time(NULL) ); // seed the random number generator.
