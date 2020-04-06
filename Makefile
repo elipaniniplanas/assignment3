@@ -4,7 +4,7 @@ test1: test1.o
 	g++ -o test1 test1.o
 	./test1
 
-test1.o: test1.cpp Part1.h
+test1.o: test1.cpp Qsort.h
 	g++ -c test1.cpp
 
 clean:
