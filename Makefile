@@ -1,12 +1,10 @@
-all: test1
+all: test
 
-test: test1.o
-	g++ test1.o -o test1
-	./test1
+test: test.o
+	g++ -o test test.o
 
-test.o: test1.cpp Part1.h
-	g++ -Wall -Wextra -Werror -c test1.cpp
+test.o: test.cpp Qsort.h
+	g++ -c test.cpp
 
 clean:
-	rm -f test1 *.o
-
+	rm -f test *.o

@@ -2,7 +2,7 @@
 #include <algorithm> // Includes sort()
 #include <ctime> // access to the system clock
 #include <time.h> // access to "wall clock"
-#include "Part1.h" // our quicksort (and insertion sort)
+#include "Qsort.h" // our quicksort (and insertion sort)
 using namespace std;
 
 double elapsed_time( clock_t start, clock_t finish){
