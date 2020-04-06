@@ -1,10 +1,10 @@
-all: test
+all: test1
 
-test: test.o
-	g++ -o test test.o
+test: test1.o
+	g++ -o test1 test1.o
 
-test.o: test.cpp Qsort.h
-	g++ -c test.cpp
+test.o: test1.cpp Part1.h
+	g++ -c test1.cpp
 
 clean:
-	rm -f test *.o
+	rm -f test1 *.o
