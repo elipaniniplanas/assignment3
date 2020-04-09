@@ -47,7 +47,7 @@ int main (int argc, char * const argv[]) {
          A1[i] = x ;
          A2[i] = x ;
          A3[i] = i ;
-         swap(A3[i], A3[rand() % (i+1)]);
+         swap(A3[i], A3[rand() % (i+1)]);//shuffle array
       }
       A4 = A3;
 
