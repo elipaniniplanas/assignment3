@@ -51,7 +51,7 @@ void IntroSort(int A[], int lo, int hi ){
     // Sorts A[lo] to A[hi].
    int temp ; // auxilliary variable used for performing swaps.
    if( lo < hi ){
-      if(hi-lo < 9)
+      if(hi-lo <= 19)
       {
          InsertionSort(A, lo, hi);
       }
